@@ -26,8 +26,11 @@ library(vnoteTransformer)
 vnote32(from = "E:/VNoteBook/", to = "E:/VNotebook2/")
 ```
 
+上面的例子中，在 `E:/VNotebook2/` 目录下，就保存着你的笔记本。
+你现在可以在 VNote 2.x 版本中导入这个笔记本（VNoteX 3.x 的回收站请视情况自行删掉）。
+
 为确保安全，会首先将原有的笔记本复制到新的文件夹中，然后再进行转换。
-如果想要在原有的笔记本中直接转换，可使用 `to = NULL`。
+如果想要在原有的笔记本中直接转换，可使用 `to = NULL`（**请做好数据备份**）。
 
 另外，由于 VNoteX 3.x 使用的 JSON 文件为 `"vx.json"`，VNote 2.x 使用的 JSON 文件为 `"_vnote.json"`，
 所以理论上两个版本的文件是可以共存的。`vnote32()` 有一个参数 `mode = "coexist"` 会同时保留两种 JSON 文件。
@@ -37,6 +40,7 @@ vnote32(from = "E:/VNoteBook/", to = "E:/VNotebook2/", mode = "coexist")
 ```
 
 **注意**：共存仅适用于存量笔记，新建笔记在不同版本间不会被自动识别。
+
 
 ----
 
