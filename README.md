@@ -46,7 +46,6 @@ vnote32(from = "E:/VNoteBook/", to = "E:/VNotebook2/", mode = "coexist")
 
 如果觉得有用，请点个 Star 或者打赏 5 毛。
 
-![5毛钱交个朋友](https://vnote-1251564393.cos.ap-chengdu.myqcloud.com/typora-img/image-20210208212557360.png)
-
+<img src="https://vnote-1251564393.cos.ap-chengdu.myqcloud.com/typora-img/image-20210208212557360.png" alt="5毛钱交个朋友" style="zoom:25%;" />
 
 顺便说一句，下载 VNote 2.10 版本，请移步到 [这里](https://github.com/vnotex/vnote/releases/tag/v2.10) 。
